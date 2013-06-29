@@ -1,5 +1,5 @@
 <?php
-  import_once('Yubikey.php');
+  include_once('Yubikey.php');
   $otp = $_GET['otp'];
   $obj;
   substr($otp, 0, 12);
